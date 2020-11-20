@@ -17,8 +17,9 @@ namespace Opay_CSharpSDK.test
         private IInquiry inquiry;
         private IConnectionClient connectionClient;
         private readonly String BASEURL = "http://sandbox.cashierapi.operapay.com/api/v3";
-        private readonly String MERCHANTID = "256620072116000";
-        private readonly String PUBLICKEY = "OPAYPUB15953464969740.9412274406196679";
+        private readonly String MERCHANTID = "256620112018031";
+        private readonly String PUBLICKEY = "OPAYPUB16058777635980.9961229244591103";
+       
 
         [Test]
         public void Test_Query_Balance_All_Account_Success()

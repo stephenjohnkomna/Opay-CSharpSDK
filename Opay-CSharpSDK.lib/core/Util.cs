@@ -46,12 +46,5 @@ namespace Opay_CSharpSDK.lib.core
             return hearders;
         }
 
-        //public static String getMessage(String response)
-        //{
-        //    dynamic result = JsonConvert.DeserializeObject(response);
-        //    String value = result.message;
-        //    return value;
-        //}
-
     }
 }
